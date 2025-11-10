@@ -1,6 +1,11 @@
 import sys
 if len(sys.argv) == 5:
-    marks = [float(m) for m in sys.argv[0:5]]
+    marks1 = sys.argv[0]
+    marks2 = sys.argv[1]
+    marks3 = sys.argv[2]
+    marks4 = sys.argv[3]
+    marks5 = sys.argv[4]
+    
     print("User provided marks values:")
 else:
     marks = [80, 75, 90, 85, 70]
